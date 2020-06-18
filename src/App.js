@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
-import lightClouds from '../../assets/light_clouds.jpg'
+import Main from './components/Main/Main'
 import './App.scss'
 
 const App = () => {
   return (
     <div className='App'>
       <Header />
-      <img src={lightClouds} alt='light clouds' className='light-clouds'/>
+      <Main />
       <Footer />
     </div>
   )

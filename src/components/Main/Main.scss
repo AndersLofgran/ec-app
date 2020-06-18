@@ -1,0 +1,9 @@
+@import '../../scss/_globals';
+
+.main {
+  background: url('../../assets/light_clouds.jpg') no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  @include displayFlex;
+}
