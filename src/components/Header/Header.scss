@@ -1,0 +1,13 @@
+@import '../../scss/_globals';
+
+.header {
+  @include displayFlex;
+  background-color: color(header);
+  height: 60px;
+  .header-item {
+    margin: 0 40px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    cursor: pointer;
+  }
+}

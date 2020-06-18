@@ -2,7 +2,6 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  // devServer: {port: 4500},
   context: __dirname,
   entry: './src/index.js',
   output: {
@@ -21,10 +20,10 @@ module.exports = {
       },
       {
         test: /.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
-        test: /\.(png|j?g|svg|gif)?$/,
+        test: /\.(png|jpe?g|svg|gif)?$/i,
         use: 'file-loader'
       }
     ]
