@@ -1,20 +1,39 @@
 @import '../../scss/_globals';
 
+
 .header {
   @include displayFlex;
-  background-color: color(header);
   height: 60px;
   color: color(text);
+  background-color: color(header);
+}
+.header-mobile { @include displayFlex(space-evenly); }
+.header-desktop { * {width: 20vw;} }
+  .header-item-container { @include displayFlex; }
   .header-item {
-    margin: 0 40px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgb(100, 100, 100);
+    width: fit-content;
+    margin: 0 1vw;
     cursor: pointer;
   }
-  .profile-icon {
-    position: absolute;
-    right: 5vw;
-    font-size: 35px;
+  .header-icon {
+    font-size: 25px;
     cursor: pointer;
+    &:active {
+      opacity: 0.5;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
   }
+  .header-icon-desktop { font-size: 35px; }
+
+
+.company-name {
+  font-family: Dancing Script;
+  font-size: 30px;
+  font-weight: bold;
 }

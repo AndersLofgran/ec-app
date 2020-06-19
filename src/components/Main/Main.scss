@@ -5,5 +5,5 @@
   background-size: cover;
   width: 100vw;
   min-height: 100vh;
-  @include displayFlex;
+  @include displayFlex(center, null);
 }

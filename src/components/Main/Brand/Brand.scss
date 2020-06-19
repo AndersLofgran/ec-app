@@ -1,0 +1,13 @@
+@import '../../../scss/_globals';
+
+.brand {
+  color: color(text);
+  height: calc(100vh - 60px);
+  width: 100%;
+  border: 1px solid black;
+  h1 {
+    font-size: 60px;
+    margin: 30px;
+  }
+  p {color: grey;}
+}
