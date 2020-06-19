@@ -1,0 +1,16 @@
+.brand {
+  color: #303030;
+  height: calc(100vh - 60px);
+  width: 100%;
+  border: 1px solid black;
+}
+
+.brand h1 {
+  font-size: 60px;
+  margin: 30px;
+}
+
+.brand p {
+  color: grey;
+}
+/*# sourceMappingURL=Brand.css.map */

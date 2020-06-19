@@ -3,9 +3,8 @@ import './Brand.scss'
 
 const Brand = () => {
   return (
-    <div className='brand-card'>
-      <h1>Camille Cornaby</h1>
-      <p>Artist, musician, and journaler.</p>
+    <div className='brand'>
+      
     </div>
   );
 }

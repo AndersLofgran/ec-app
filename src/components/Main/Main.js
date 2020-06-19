@@ -1,5 +1,5 @@
 import React from 'react'
-import Brand from '../Cards/Brand/Brand'
+import Brand from './Brand/Brand'
 import './Main.scss'
 
 const Main = () => {

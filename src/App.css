@@ -7,10 +7,6 @@
 
 .App {
   text-align: center;
-  min-height: 100vh;
-}
-
-.light-clouds {
-  width: 100%;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=App.css.map */
