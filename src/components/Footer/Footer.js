@@ -8,6 +8,7 @@ const Footer = () => {
       <div>
         <div>Image Sources</div>
         <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by jannoon028 - www.freepik.com</a>
+        <a href='https://www.freepik.com/free-photos-vectors/tree'>Tree photo created by danmir12 - www.freepik.com</a>
       </div>
     </div>
   )

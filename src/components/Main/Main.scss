@@ -1,9 +1,29 @@
 @import '../../scss/_globals';
 
 .main {
-  background: url('../../assets/light_clouds.jpg') no-repeat;
-  background-size: cover;
-  width: 100vw;
-  min-height: 100vh;
-  @include displayFlex(center, null);
+  height: fit-content;
+  @include displayFlex(center, null, column);
+}
+
+.bkg-img {
+  margin-left: 50%;
+  margin-bottom: 30vh;
+  transform: translateX(-50%);
+  min-width: 1086px;
+  width: 101%;
+}
+
+.main-content {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  @include displayFlex(center, center, column);
+}
+
+.intro-quote {
+  padding: 12vh 5vw;
+  font-size: 30px;
+  font-style: italic;
+  color: color(text);
 }

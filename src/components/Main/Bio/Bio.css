@@ -1,0 +1,26 @@
+.bio {
+  height: calc(100vh - 60px);
+  width: 40vw;
+  margin: 0 auto;
+  color: #303030;
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.bio h1 {
+  font-size: 20px;
+  margin: 3vh 0;
+}
+
+.bio p {
+  width: 75%;
+  margin: 3vh auto;
+  color: grey;
+}
+
+.bio img {
+  border-radius: 100%;
+  height: 40%;
+}
+/*# sourceMappingURL=Bio.css.map */

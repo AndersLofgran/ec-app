@@ -5,7 +5,7 @@
   @include displayFlex;
   height: 60px;
   color: color(text);
-  background-color: color(header);
+  background-color: color(cardBkg);
 }
 .header-mobile { @include displayFlex(space-evenly); }
 .header-desktop { * {width: 20vw;} }
